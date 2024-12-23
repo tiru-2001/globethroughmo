@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "skipLibCheck": true, // This option helps avoid type errors in third-party libraries
+    "strict": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*.ts", "env.d.ts"]
+}
